@@ -1,0 +1,30 @@
+# Query: src
+# ContextLines: 1
+
+7 results - 4 files
+
+i18n.ts:
+  1: // src/i18n.ts
+  2  import i18n from 'i18next';
+
+index.html:
+  10      <div id="root"></div>
+  11:     <script type="module" src="/src/main.tsx"></script>
+  12    </body>
+
+tsconfig.app.json:
+  24    },
+  25:   "include": ["src"]
+  26  }
+
+src\App.tsx:
+  12          <a href="https://vite.dev" target="_blank">
+  13:           <img src={viteLogo} className="logo" alt="Vite logo" />
+  14          </a>
+  15          <a href="https://react.dev" target="_blank">
+  16:           <img src={reactLogo} className="logo react" alt="React logo" />
+  17          </a>
+
+  24          <p>
+  25:           Edit <code>src/App.tsx</code> and save to test HMR
+  26          </p>
